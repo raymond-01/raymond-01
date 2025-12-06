@@ -2,10 +2,9 @@ name: Update Dynamic Profile
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Runs every 6 hours
-  workflow_dispatch:        # Allows you to click "Run workflow" manually to test it
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
-# PERMISSIONS: This is required to let the bot save changes
 permissions:
   contents: write
 
@@ -18,10 +17,7 @@ jobs:
 
       - name: Fetch recent activity
         run: |
-          # Create/Clear the file
           echo "" > activity.md
-          
-          # Fetch events with Auth Token to avoid rate limits
           RECENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/events?per_page=10" | jq '.[] | select(.type=="PushEvent")')
           
           if [ -z "$RECENT" ]; then
@@ -32,7 +28,6 @@ jobs:
 
       - name: Fetch latest repos
         run: |
-          # Fetch repos with Auth Token
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/repos?sort=updated&per_page=5" \
           | jq -r '.[] | "- [\(.name)](\(.html_url)) — updated \(.updated_at)"' > repos.md
 
