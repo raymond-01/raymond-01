@@ -1,59 +1,35 @@
-name: Update Dynamic Profile
+<h1 align="center">Hi, I'm Raymond 👋</h1>
+<p align="center">
+  <b>Full-Stack Developer | System Designer | AI Integrator</b><br>
+  I build systems, clean architectures, and practical tools that solve real-world problems.
+</p>
 
-on:
-  schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
-  workflow_dispatch:
+---
 
-# FIX 1: Grant permission to write back to the repo
-permissions:
-  contents: write
+## 🚀 Activity Overview
+> This section updates automatically every 6 hours.
+> If I'm not active recently, it stays empty to keep things clean.
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+---
 
-      - name: Fetch recent activity
-        run: |
-          echo "" > activity.md
-          # FIX 2: Added Authorization header to prevent rate limiting
-          RECENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/events?per_page=10" | jq '.[] | select(.type=="PushEvent")')
-          
-          if [ -z "$RECENT" ]; then
-            echo "No recent activity found." > activity.md
-          else
-            echo "### 🔥 Latest Activity" >> activity.md
-            echo "" >> activity.md
-            # Note: Timestamps will be raw (e.g., 2023-10-25T14:00:00Z). Formatting them in bash is hard; this is acceptable.
-            echo "$RECENT" | jq -r '"- **\(.repo.name)** — pushed on \(.created_at)"' >> activity.md
-          fi
+## 🛠️ Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,express,postgres,mongodb,prisma,docker,git" />
+</p>
 
-      - name: Fetch latest repos
-        run: |
-          # FIX 2: Added Authorization header here too
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/repos?sort=updated&per_page=5" \
-          | jq -r '.[] | "- [\(.name)](\(.html_url)) — updated \(.updated_at)"' > repos.md
+---
 
-      - name: Inject into README
-        run: |
-          awk '
-            BEGIN {activity=0; projects=0}
-            // {print; while ((getline line < "activity.md") > 0) print line; activity=1; next}
-            // {activity=0}
-            // {print; while ((getline line < "repos.md") > 0) print line; projects=1; next}
-            // {projects=0}
-            activity==0 && projects==0 {print}
-          ' README.md > NEWREADME.md
-          mv NEWREADME.md README.md
+## 📊 GitHub Stats (Auto-updated)
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&theme=radical" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=radical" />
+</p>
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add README.md
-          # This prevents the workflow from failing if there are no new updates to commit
-          git commit -m "Auto-update profile" || echo "No changes to commit"
-          git push
+---
+
+## 🔥 Featured Projects (Pinned Automatically)
+---
+
+<p align="center">
+  <i>Profile updates daily — powered by GitHub Actions ⚡</i>
+</p>
