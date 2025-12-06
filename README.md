@@ -2,68 +2,41 @@
 <h1 align="center">Hi, I'm Raymond 👋</h1>
 <p align="center">
   <b>Full-Stack Developer | System Designer | AI Integrator</b><br>
-  I build scalable systems, clean architectures, and practical tools that solve real-world problems.
-</p>
-
-<!-- SOCIAL + CONTACT -->
-<p align="center">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-%23000000.svg?&style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  I build systems, clean architectures, and practical tools that solve real-world problems.
 </p>
 
 ---
 
-## 👨‍💻 About Me
-- 🔧 I design and build **full-stack systems** (React, Node.js, Express, TypeScript)
-- 🤖 I integrate **AI (LLM APIs)** into real applications
-- 🧩 I enjoy **clean architecture**, **automation**, and **developer problem-solving**
-- 🚀 Currently building **StockFlow**, a smart stock & sales tracking system
+## 🚀 Activity Overview  
+> This section updates automatically every 6 hours.  
+> If I'm not active recently, it stays empty to keep things clean.
+
+<!-- ACTIVITY_SECTION_START -->
+<!-- ACTIVITY_SECTION_END -->
 
 ---
 
 ## 🛠️ Tech Stack
-
-### **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java" />
-</p>
-
-### **Frontend**
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css" />
-</p>
-
-### **Backend & DevOps**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,prisma,docker" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,express,postgres,mongodb,prisma,docker,git" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
-
-### 🔹 **StockFlow — Restaurant Sales & Inventory System**
-> Smart tracking for Kenyan restaurants (stock, shortages, pending bills, payments)  
-Tech: `React` · `Node.js` · `TypeScript` · `PostgreSQL`
-
-### 🔹 **RestExpress API**
-> Production-ready API starter with TypeScript, Express, Prisma, auth modules.
-
-### 🔹 **Smart Scheduler (AI-powered)**
-> Generates employee shifts automatically based on workload + constraints.
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Stats (Auto-updated)
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&theme=radical" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=radical" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&theme=radical" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=radical" />
 </p>
 
 ---
 
-## ✨ Fun Stuff
-- 🧠 I love building **useful tools** that make everyday work easier  
-- 🎯 Motto: *Keep it simple, keep it clean.*
+## 🔥 Featured Projects (Pinned Automatically)
+<!-- PROJECTS_SECTION_START -->
+<!-- PROJECTS_SECTION_END -->
 
+---
+
+<p align="center">
+  <i>Profile updates daily — powered by GitHub Actions ⚡</i>
+</p>
