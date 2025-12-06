@@ -2,8 +2,12 @@ name: Update Dynamic Profile
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
-  workflow_dispatch:
+    - cron: "0 */6 * * *"   # Runs every 6 hours
+  workflow_dispatch:        # Allows you to click "Run workflow" manually to test it
+
+# PERMISSIONS: This is required to let the bot save changes
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -14,31 +18,35 @@ jobs:
 
       - name: Fetch recent activity
         run: |
-          echo "">activity.md
-          RECENT=$(curl -s "https://api.github.com/users/raymond-01/events?per_page=10" | jq '.[] | select(.type=="PushEvent")')
+          # Create/Clear the file
+          echo "" > activity.md
+          
+          # Fetch events with Auth Token to avoid rate limits
+          RECENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/events?per_page=10" | jq '.[] | select(.type=="PushEvent")')
+          
           if [ -z "$RECENT" ]; then
-            echo "" > activity.md
+            echo "> *No public push activity in the last few days.*" > activity.md
           else
-            echo "### 🔥 Latest Activity" >> activity.md
-            echo "" >> activity.md
-            echo "$RECENT" | jq -r '"- \(.repo.name) — pushed on \(.created_at)"' >> activity.md
+            echo "$RECENT" | jq -r '"- **\(.repo.name)** — pushed on \(.created_at)"' >> activity.md
           fi
 
       - name: Fetch latest repos
         run: |
-          curl -s "https://api.github.com/users/raymond-01/repos?sort=updated&per_page=5" \
+          # Fetch repos with Auth Token
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/repos?sort=updated&per_page=5" \
           | jq -r '.[] | "- [\(.name)](\(.html_url)) — updated \(.updated_at)"' > repos.md
 
       - name: Inject into README
         run: |
           awk '
             BEGIN {activity=0; projects=0}
-            /<!-- ACTIVITY_SECTION_START -->/ {print; while ((getline line < "activity.md") > 0) print line; activity=1; next}
-            /<!-- ACTIVITY_SECTION_END -->/ {activity=0}
-            /<!-- PROJECTS_SECTION_START -->/ {print; while ((getline line < "repos.md") > 0) print line; projects=1; next}
-            /<!-- PROJECTS_SECTION_END -->/ {projects=0}
+            // {print; while ((getline line < "activity.md") > 0) print line; activity=1; next}
+            // {activity=0}
+            // {print; while ((getline line < "repos.md") > 0) print line; projects=1; next}
+            // {projects=0}
             activity==0 && projects==0 {print}
           ' README.md > NEWREADME.md
+          
           mv NEWREADME.md README.md
 
       - name: Commit and push changes
@@ -46,5 +54,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          git commit -m "Auto-update profile" || exit 0
+          git commit -m "Auto-update profile" || echo "No changes to commit"
           git push
