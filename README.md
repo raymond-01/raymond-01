@@ -1,45 +1,86 @@
-<h1 align="center">Hi, I'm Raymond 👋</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
+</div>
 
-- **raymond-01/raymond-01** — pushed on 2025-12-06T08:15:25Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T08:08:19Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T08:07:38Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T08:05:01Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T07:57:30Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T07:53:20Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T07:49:41Z
-- **raymond-01/raymond-01** — pushed on 2025-12-06T07:45:09Z
-- **raymond-01/Fedha-Youth-Group** — pushed on 2025-11-20T12:18:45Z
-<p align="center">
-  <b>Full-Stack Developer | System Designer | AI Integrator</b><br>
-  I build systems, clean architectures, and practical tools that solve real-world problems.
-</p>
+<div align="center">
+  <h3>Building scalable systems with React, TypeScript, Kotlin & AI.</h3>
+</div>
 
 ---
 
-## 🚀 Activity Overview
-> This section updates automatically every 6 hours.
-> If I'm not active recently, it stays empty to keep things clean.
+<table align="center" border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>👨‍💻 About Me</h3>
+      <ul>
+        <li><b>Current Focus:</b> Developing <b>StockFlow</b> (Retail SaaS) & <b>Budget Wise</b> (Android).</li>
+        <li><b>Stack:</b> React, Node.js, Supabase, Kotlin (Android).</li>
+        <li><b>Passion:</b> Algorithms, System Design, and "Vibe Coding" (AI-assisted dev).</li>
+        <li><b>Location:</b> Kenya 🇰🇪</li>
+      </ul>
+      <br />
+      <a href="mailto:your-email@example.com">
+        <img src="https://img.shields.io/badge/Email-Me-blue?style=for-the-badge&logo=gmail" />
+      </a>
+      <a href="https://linkedin.com/in/your-linkedin">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📈 GitHub Stats</h3>
+      <div align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&count_private=true&hide=issues,contribs&theme=react&bg_color=0D1117&title_color=58A6FF&icon_color=F0F6FC&text_color=8B949E&hide_border=true" height="140" />
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Tech Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,express,postgres,mongodb,prisma,docker,git" />
-</p>
+### 🛠️ The Arsenal
+<table align="center">
+  <tr>
+    <td align="center" width="90"><b>Frontend</b></td>
+    <td align="center" width="90"><b>Backend</b></td>
+    <td align="center" width="90"><b>Mobile</b></td>
+    <td align="center" width="90"><b>Data/AI</b></td>
+    <td align="center" width="90"><b>Tools</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=kotlin,android" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=python,tensorflow" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=git,docker,linux,vim" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats (Auto-updated)
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&theme=radical" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=radical" />
-</p>
+### 🏆 Featured Projects
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **🥩 StockFlow** | Multi-store retail management system for Kenyan butcheries. Handles inventory & sales logic. | `React` `TS` `Supabase` |
+| **💰 Budget Wise** | Native Android application for personal finance tracking and analytics. | `Kotlin` `Room` `Jetpack` |
 
 ---
 
-## 🔥 Featured Projects (Pinned Automatically)
+### ⚡ Recent Activity
 ---
 
-<p align="center">
-  <i>Profile updates daily — powered by GitHub Actions ⚡</i>
-</p>
+### 📦 Latest Repositories
+---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=react&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&hide_border=true" />
+</div>
