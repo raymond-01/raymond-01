@@ -1,33 +1,9 @@
 <div align="center">
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
+
+<p><i>Heads down coding — no major public updates today.</i></p>
+
 </div>
 
 <div align="center">
@@ -47,8 +23,8 @@
         <li><b>Location:</b> Kenya 🇰🇪</li>
       </ul>
       <br />
-      <a href="mailto:your-email@example.com">
-        <img src="https://img.shields.io/badge/Email-Me-blue?style=for-the-badge&logo=gmail" />
+      <a href="raymii665@gmail.com">
+        <img src="https://img.shields.io/badge/Status-Heads%20Down%20Coding-20C20E?style=flat-square" />
       </a>
       <a href="https://linkedin.com/in/your-linkedin">
         <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
