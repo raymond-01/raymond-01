@@ -2,7 +2,7 @@ name: Update Dynamic Profile
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Runs every 6 hours
+    - cron: "*/30 * * * *"  # Runs every 30 minutes
   workflow_dispatch:        # Allows manual testing
 
 permissions:
@@ -15,49 +15,25 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch recent activity (Smart Filtered)
+      - name: Fetch Last 2 Active Repos
         run: |
-          echo "" > activity.md
-          
-          # 1. Fetch last 20 events
-          # 2. Select only PushEvents
-          # 3. FILTER OUT: Merges, Chores, Docs, Typos, WIPs
-          # 4. Limit to top 5 items
-          RECENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/events?per_page=20" \
-          | jq -c '.[] | select(.type=="PushEvent")' \
-          | jq -c 'select(.payload.commits[0].message | test("Merge|chore|docs|typo|wip"; "i") | not)' \
-          | head -n 5)
-          
-          if [ -z "$RECENT" ]; then
-            echo "> *Heads down coding—no major public updates today.*" > activity.md
-          else
-            # Outputs: "- [Repo Name] — [Commit Message]"
-            echo "$RECENT" | jq -r '"- **\(.repo.name)** — \(.payload.commits[0].message | split("\n")[0])"' >> activity.md
-          fi
+          # Fetch repos sorted by 'pushed' (most recent code changes first) and limit to 2
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/users/raymond-01/repos?sort=pushed&direction=desc&per_page=2" \
+          | jq -r '.[] | "- [**\(.name)**](\(.html_url)) — \(.description // "No description provided.")"' > current_work.md
 
-      - name: Fetch latest repos
+      - name: Update README
         run: |
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/raymond-01/repos?sort=updated&per_page=5" \
-          | jq -r '.[] | "- [\(.name)](\(.html_url)) — updated \(.updated_at | sub("T.*"; ""))"' > repos.md
-
-      - name: Inject into README
-        run: |
-          awk '
-            BEGIN {activity=0; projects=0}
-            // {print; while ((getline line < "activity.md") > 0) print line; activity=1; next}
-            // {activity=0}
-            // {print; while ((getline line < "repos.md") > 0) print line; projects=1; next}
-            // {projects=0}
-            activity==0 && projects==0 {print}
-          ' README.md > NEWREADME.md
+          # Use sed to replace content between the markers
+          sed -i '//,//{//!d}' README.md
+          sed -i '//r current_work.md' README.md
           
-          mv NEWREADME.md README.md
+          # Clean up
+          rm current_work.md
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          # Only commit if there are actual changes
-          git commit -m "Auto-update profile" || echo "No changes to commit"
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🔥 Update active projects" && git push)
