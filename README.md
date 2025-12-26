@@ -1,22 +1,14 @@
-
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-> *Heads down coding—no major public updates today.*
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
-
-<p><i>Heads down coding — no major public updates today.</i></p>
-
-</div>
-
 <div align="center">
-  <h3>Building scalable systems with React, TypeScript, Kotlin & AI.</h3>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
+
+  <p><i>Building scalable systems with React, TypeScript, Kotlin & AI.</i></p>
+
+  <a href="mailto:raymii665@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/your-linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
 </div>
 
 ---
@@ -31,13 +23,6 @@
         <li><b>Passion:</b> Algorithms, System Design, and "Vibe Coding" (AI-assisted dev).</li>
         <li><b>Location:</b> Kenya 🇰🇪</li>
       </ul>
-      <br />
-      <a href="raymii665@gmail.com">
-        <img src="https://img.shields.io/badge/Status-Heads%20Down%20Coding-20C20E?style=flat-square" />
-      </a>
-      <a href="https://linkedin.com/in/your-linkedin">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
-      </a>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">📈 GitHub Stats</h3>
@@ -51,32 +36,9 @@
 ---
 
 ### 🛠️ The Arsenal
-<table align="center">
-  <tr>
-    <td align="center" width="90"><b>Frontend</b></td>
-    <td align="center" width="90"><b>Backend</b></td>
-    <td align="center" width="90"><b>Mobile</b></td>
-    <td align="center" width="90"><b>Data/AI</b></td>
-    <td align="center" width="90"><b>Tools</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=kotlin,android" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python,tensorflow" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=git,docker,linux,vim" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs,nodejs,express,supabase,postgres,kotlin,android,python,tensorflow,git,docker,linux,vim" />
+</div>
 
 ---
 
@@ -88,10 +50,7 @@
 
 ---
 
-### ⚡ Recent Highlights
----
-
-### 📦 Latest Repositories
+### ⚡ Recent Activity
 ---
 
 <div align="center">
