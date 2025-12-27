@@ -18,10 +18,10 @@
     <td width="50%" valign="top">
       <h3>👨‍💻 About Me</h3>
       <ul>
-        <li><b>Current Focus:</b> Developing <b>StockFlow</b> (Retail SaaS) & <b>Budget Wise</b> (Android).</li>
+        <li><b>My name is Raymond and I am a full stack developer, </b> 
         <li><b>Stack:</b> React, Node.js, Supabase, Kotlin (Android).</li>
-        <li><b>Passion:</b> Algorithms, System Design, and "Vibe Coding" (AI-assisted dev).</li>
-        <li><b>Location:</b> Kenya 🇰🇪</li>
+        <li><b>Passion:</b> Algorithms, System Design, and a bit of "vibe coding".</li>
+        <li><b>Location:</b> I am based in Nairobi Kenya🇰🇪 </li>
       </ul>
     </td>
     <td width="50%" valign="top">
