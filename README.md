@@ -1,58 +1,21 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=20C20E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Raymond+%F0%9F%91%8B;Full-Stack+Developer;System+Architect;AI+%26+Automation+Builder" alt="Typing SVG" />
+# 💫 About Me:
+🕺🏽My name is Raymond and I am a full stack Web developer.<br>📚My Stack: React, Typescript, Python, SQL(MySQL & Postgres).<br>⚡️Passion: Algorithms, Web Design, and a bit of "vibe coding".<br>📍Location: I am based in Nairobi Kenya 🇰🇪<br>⎓ Currently working on my BSIS app, built with python and Streamlit framework.
 
-  <p><i>Building scalable systems with React, TypeScript, Kotlin & AI.</i></p>
 
-  <a href="mailto:raymii665@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/your-linkedin">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-</div>
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/RaymondMutethia) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:raymii665@gmail.com) 
 
----
+# 💻 Tech Stack:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=for-the-badge&logo=Playstation&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=raymond-01&theme=radical&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=raymond-01&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=raymond-01&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-<table align="center" border="0">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>👨‍💻 About Me</h3>
-      <ul>
-        <li><b>My name is Raymond and I am a full stack developer, </b> 
-        <li><b>Stack:</b> React, Node.js, Supabase, Kotlin (Android).</li>
-        <li><b>Passion:</b> Algorithms, System Design, and a bit of "vibe coding".</li>
-        <li><b>Location:</b> I am based in Nairobi Kenya🇰🇪 </li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📈 GitHub Stats</h3>
-      <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=raymond-01&show_icons=true&count_private=true&hide=issues,contribs&theme=react&bg_color=0D1117&title_color=58A6FF&icon_color=F0F6FC&text_color=8B949E&hide_border=true" height="140" />
-      </div>
-    </td>
-  </tr>
-</table>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=raymond-01&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=raymond-01&icon=0&color=0)](https://visitcount.itsvg.in)
 
-### 🛠️ The Arsenal
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs,nodejs,express,supabase,postgres,kotlin,android,python,tensorflow,git,docker,linux,vim" />
-</div>
-
----
-
-### 🏆 Featured Projects
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **🥩 StockFlow** | Multi-store retail management system for Kenyan butcheries. Handles inventory & sales logic. | `React` `TS` `Supabase` |
-| **💰 Budget Wise** | Native Android application for personal finance tracking and analytics. | `Kotlin` `Room` `Jetpack` |
-
----
-
-### ⚡ Recent Activity
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=raymond-01&layout=compact&theme=react&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&hide_border=true" />
-</div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
